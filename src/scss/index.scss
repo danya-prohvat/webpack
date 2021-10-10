@@ -1,0 +1,18 @@
+$body-background: rgb(206, 206, 206);
+
+body{
+    background-color: $body-background;
+}
+.article{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &-text{
+        width: 100px;
+        height: 100px;
+        background-color: blue;
+    }
+}
